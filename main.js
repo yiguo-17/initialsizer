@@ -17,7 +17,7 @@ function nmlen(fn, ln){
 const namelen = nmlen(fstnm, lstnm);
 // genetate message and print.
 
-const msg = 'Hey, ' +nmini +' Mind if I call you that? Your full name is '+ namelen + 'letters long!';
+const msg = 'Hey, ' +nmini +' Mind if I call you that? Your full name is '+ namelen + ' letters long!';
 console.log(msg);
 
 
