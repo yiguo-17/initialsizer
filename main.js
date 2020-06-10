@@ -8,7 +8,8 @@ const lstnm = getInput(1);
 function inis(fn, ln){
   return fn[0] +'.' +ln[0] + '.';
 }
-const nmini = inis(fstnm, lstnm)/
+const nmini = inis(fstnm, lstnm);
+      //
 // create function for name lenth and call it.
 function nmlen(fn, ln){
   return fn.length + ln.length;
