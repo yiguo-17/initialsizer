@@ -1,7 +1,23 @@
 /*******************************************************************************
  * Your code here!
  ******************************************************************************/
+ // asign variaes store first and last name.
+const fstnm = getInput(0);
+const lstnm = getInput(1);
+// create function for initials and call it
+function inis(fn, ln){
+  return fn[0] +'.' +ln[0] + '.';
+}
+const nmini = inis(fstnm, lstnm)/
+// create function for name lenth and call it.
+function nmlen(fn, ln){
+  return fn.length + ln.length;
+}
+const namelen = nmlen(fstnm, lstnm);
+// genetate message and print.
 
+const msg = 'Hey, ' +nmini +' Mind if I call you that? Your full name is '+ namelen + 'letters long!';
+console.log(msg);
 
 
 /*******************************************************************************
